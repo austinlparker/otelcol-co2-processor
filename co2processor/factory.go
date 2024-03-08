@@ -6,6 +6,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/processor"
+	"go.opentelemetry.io/collector/processor/processorhelper"
 )
 
 func NewFactory() processor.Factory {
@@ -34,6 +35,5 @@ func createTracesProcessor(
 		set,
 		cfg,
 		nextConsumer,
-		sp.processTraces,
-		processorhelper.WithCapabilities(processorCapabilities))
+		sp.processTraces)
 }

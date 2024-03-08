@@ -57,6 +57,8 @@ github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcU
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
+go.opentelemetry.io/collector v0.96.0 h1:qXA3biNps8LPYYCTJwepGu58sW0XInmwnQbkkWZchIg=
+go.opentelemetry.io/collector v0.96.0/go.mod h1:/i3zyRg23r7vloTLzKG/mRI2VkEt1Q4ARXbe3vKnAaE=
 go.opentelemetry.io/collector/component v0.96.0 h1:O7F8F1YWOHNCqK5NH6vkGI6S1ObR4aPMFq3nHUxdWs0=
 go.opentelemetry.io/collector/component v0.96.0/go.mod h1:HsiWaGHT+npm+c54iuUes1MpZJuGKZzS+ts2iaKt/Lo=
 go.opentelemetry.io/collector/config/configtelemetry v0.96.0 h1:Q9bSLPUzJUFG+P8eQ7W25Feko8yjdB7dK98V7hmUxCA=
@@ -65,6 +67,8 @@ go.opentelemetry.io/collector/confmap v0.96.0 h1:415ELCfC8S3xjiNFLneDWJi6h7j7SUw
 go.opentelemetry.io/collector/confmap v0.96.0/go.mod h1:q/dWHLvkk1vgvAF0l5dbgQSiPOmGwpv0FwcNaGpqsfM=
 go.opentelemetry.io/collector/consumer v0.96.0 h1:JN4JHelp5EGMGoC2UVelTMG6hyZjgtgdLLt5eZfVynU=
 go.opentelemetry.io/collector/consumer v0.96.0/go.mod h1:Vn+qzzKgekDFayCVV8peSH5Btx1xrt/bmzD9gTxgidQ=
+go.opentelemetry.io/collector/model v0.50.0 h1:1wt8pQ4O6GaUeYEaR+dh3zHmYsFicduF2bbPGMZeSKk=
+go.opentelemetry.io/collector/model v0.50.0/go.mod h1:vKpC0JMtrL7g9tUHmzcQqd8rEbnahKVdTWZSVO7x3Ms=
 go.opentelemetry.io/collector/pdata v1.3.0 h1:JRYN7tVHYFwmtQhIYbxWeiKSa2L1nCohyAs8sYqKFZo=
 go.opentelemetry.io/collector/pdata v1.3.0/go.mod h1:t7W0Undtes53HODPdSujPLTnfSR5fzT+WpL+RTaaayo=
 go.opentelemetry.io/collector/processor v0.96.0 h1:TGo7tLbLJo9tBZ9NNoSlB7xBP5osUXThKxCmg96gSko=
