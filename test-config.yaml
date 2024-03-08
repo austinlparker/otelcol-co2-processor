@@ -1,0 +1,23 @@
+receivers:
+  otlp:
+    protocols:
+      http:
+      grpc:
+
+processors:
+  co2processor:
+
+exporters:
+  debug:
+    verbosity: detailed
+  otlp:
+    endpoint: "api.honeycomb.io:443"
+    headers:
+      "x-honeycomb-team": "${app.honeycomb_api_key}"
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [co2processor]
+      exporters: [debug]
